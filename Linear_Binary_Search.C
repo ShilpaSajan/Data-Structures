@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 void sort(int ar[],int n){
- //selection sort
+ //selection sort 
  int i,j,temp;
  for(i=0;i<n;++i){
   for(j=i+1;j<n;++j){
