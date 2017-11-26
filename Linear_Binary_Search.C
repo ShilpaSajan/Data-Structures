@@ -27,7 +27,7 @@ void main(){
   printf("\n1.Linear Search\n2.Binary Search\nSelect choice:");
   scanf("%d",&ch);
   switch(ch){
-   case 1:
+   case 1: //Linear Search
     for(i=0;i<n;++i){
      if(ar[i]==num){
       printf("%d found at position %d",num,i+1);break;
@@ -37,7 +37,7 @@ void main(){
      }
     }
     break;
-   case 2:
+   case 2: //Binary Search
     sort(ar,n);
     first=0;
     last=n-1;
