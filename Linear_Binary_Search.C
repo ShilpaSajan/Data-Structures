@@ -58,7 +58,7 @@ void main(){
    default:
     printf("Invalid Choice!");
   }
-  printf("\nSearch again? (y=1,n=0) : ");
+  printf("\nSearch again? (y=1,n=0) : "); //asking user to run the program again !!
   scanf("%d",&ch);
   if(ch==0)
    break;
