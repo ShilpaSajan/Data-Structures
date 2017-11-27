@@ -21,7 +21,7 @@ void main(){
   printf("\nEnter elements:");
   for(i=0;i<n;++i)
    scanf("%d",&ar[i]);
-  while(1){
+  while(1){  // This condition is to loop the entire program so that user can perform multiple searches ( using linear or bianry ).
   printf("Which element to search for?:");
   scanf("%d",&num);
   printf("\n1.Linear Search\n2.Binary Search\nSelect choice:");
