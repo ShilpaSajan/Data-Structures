@@ -60,7 +60,7 @@ void main(){
   }
   printf("\nSearch again? (y=1,n=0) : "); //asking user to run the program again !!
   scanf("%d",&ch);
-  if(ch==0)
+  if(ch==0) // If user types in 0 that means the user doesnt want to continue searching. Hence break from the while loop mentioned above and exit the program.!
    break;
  }
  getch();
