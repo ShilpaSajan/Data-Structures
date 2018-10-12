@@ -1,3 +1,4 @@
+// C Program to implment Multi-Stack
 #include<stdio.h>
 #include<conio.h>
 int stack[50],ch,ch1,n,top,top1,top2,x,i;
